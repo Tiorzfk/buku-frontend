@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <title>Halaman Admin</title>
+  </head>
+  <body>
+
+      <header>
+        <div class="bg-dark collapse" id="navbarHeader" style="">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-md-7 py-4">
+                <h4 class="text-white">About</h4>
+                <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+              </div>
+              <div class="col-sm-4 offset-md-1 py-4">
+                <h4 class="text-white">Contact</h4>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="text-white">Follow on Twitter</a></li>
+                  <li><a href="#" class="text-white">Like on Facebook</a></li>
+                  <li><a href="#" class="text-white">Email me</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark box-shadow">
+          <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+              <strong>Halaman List Posting</strong>
+            </a>
+            <a href="#" id="logout" class="navbar-brand d-flex align-items-center">
+              Logout
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <main role="main">
+        <div class="album py-5 bg-light">
+          <div class="container">
+            <div id="msg" role="alert"></div>
+            <a href="tambah.html" class="btn btn-primary">Tambah</a><p>
+            <div class="row">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Penulis</th>
+                    <th scope="col">Judul</th>
+                    <th scope="col">Deskripsi</th>
+                    <th scope="col">Kategori</th>
+                    <th scope="col">Gambar</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody id="dataPosting">
+
+                </tbody>
+                </table>
+            </div>
+          </div>
+        </div>
+
+      </main>
+
+      <footer class="text-muted">
+        <div class="container">
+          <p class="float-right">
+          </p>
+          <p></p>
+        </div>
+      </footer>
+
+      <script src="../vendor/jquery/jquery.min.js"></script>
+      <script src="js/index.js"></script>
+</html>
